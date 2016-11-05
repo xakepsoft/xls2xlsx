@@ -21,7 +21,6 @@ PREFIX = /usr/local
 install: xls2xlsx
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp $< $(DESTDIR)$(PREFIX)/bin/xls2xlsx
-	cp xls2xlsx /srv/5a.lv/admin/ext4oc/bin
 
 
 .PHONY: uninstall
