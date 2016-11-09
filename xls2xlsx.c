@@ -55,7 +55,6 @@ int main( int argc, char *argv[] )
 
     if(optind>=argc) {
         help:
-        //printf("Usage:\n      xls2xlsx [-x] xlsfile [xlsxfile]\n\nSpreadsheet data conversion from xls to xlsx format\n\nOptions:\n      -x     Experimental mode! Uses a lot less system resources for xlsx generation.\n             memory and filesystem (experimental).\n\n"); 
         printf("Usage:\n      xls2xlsx [-x] xlsfile [xlsxfile]\n\n");
         printf("Spreadsheet data conversion from xls to xlsx format\n\n");
         printf("Options:\n");
