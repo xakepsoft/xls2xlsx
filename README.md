@@ -2,6 +2,12 @@
 xls2xlsx - xls to xlsx data converter
 ======================================
 
+Usage:
+--------------
+xls2xlsx xlsfile [xlsxfile]
+
+
+
 Installation
 ----------------
 
